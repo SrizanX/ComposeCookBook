@@ -108,6 +108,9 @@ dependencies {
     addCoreAndroidDependencies()
     addCoreAndroidUiDependencies()
     addGoogleAndroidDependencies()
+    constraints {
+        implementation("com.android.volley:volley:1.2.1")
+    }
     addNetworkingDependencies()
 
     addKotlinTestDependencies()
